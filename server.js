@@ -10,6 +10,7 @@ function generateArrays(data){
   let userid = "tushar_dua-2010991332"
   let email = "tushar1332@chitkara.edu.in"
   let roll_number = "2010991332"
+  let DOB="04-03-2002"
   
   for(const element of data){
         if(isNaN(element)){
@@ -29,6 +30,7 @@ function generateArrays(data){
     even_numbers: even_numbers, 
     odd_numbers: odd_numbers, 
     alphabets: alphabets
+    DOB:DOB
   }
 }
 
